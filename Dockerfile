@@ -1,4 +1,4 @@
-FROM adoptopenjdk:11-jdk-openj9
+FROM openjdk:8-jdk-alpine
 ARG JAR_FILE=target/*.jar
 ENV PORT 8080
 EXPOSE 8080
